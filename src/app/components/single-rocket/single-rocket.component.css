@@ -1,0 +1,33 @@
+div.singleRocket {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    text-align: center;
+}
+
+div.singleRocket div.infoHead {
+    border: 1px solid black;
+    height: 100%;
+    margin-bottom: 5%;
+    padding: 5% 5%;
+}
+
+div.singleRocket img {
+    width: 80%;
+    height:80%;
+    margin-bottom: 3%;
+}
+
+div.singleRocket h2 {
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+div.singleRocket div.description {
+    width: 100%;
+    padding: 0 20%;
+}
+
+th {
+    width: 50%;
+}

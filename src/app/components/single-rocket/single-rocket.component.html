@@ -1,0 +1,39 @@
+<div class = "container singleRocket">
+    <div class = "infoHead">
+        <h2>{{singleRocket.rocket_name}}</h2>
+        <img src = {{singleRocket.flickr_images[1]}} alt = {{singleRocket.rocket_name}}>
+        <div class = "description">
+            <h3>Description</h3>
+            <p>{{singleRocket.description}}</p>
+        </div>
+    </div>
+    <table class = "table table-bordered">
+        <thead class = "thead-dark">
+            <tr>
+                <th colspan = "2">Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>First Flight</th>
+                <td>{{singleRocket.first_flight}}</td>
+            </tr>
+            <tr>
+                <th>Country</th>
+                <td>{{singleRocket.country}}</td>
+            </tr>
+            <tr>
+                <th>Height</th>
+                <td>{{singleRocket.height.meters}} Meters ({{singleRocket.height.feet}} Feet)</td>
+            </tr>
+            <tr>
+                <th>Diameter</th>
+                <td>{{singleRocket.diameter.meters}} Meters ({{singleRocket.diameter.feet}} Feet)</td>
+            </tr>
+            <tr>
+                <th>Mass</th>
+                <td>{{singleRocket.mass.kg}} kg ({{singleRocket.mass.lb}} lb)</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

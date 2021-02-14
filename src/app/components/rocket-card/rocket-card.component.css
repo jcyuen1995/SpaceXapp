@@ -1,0 +1,28 @@
+div.rocketCard {
+    display:flex;
+    border:1px solid black;
+    margin-top: 4%;
+    text-align:center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+div.rocketCard img {
+    width: 30%;
+    max-height: 400px;
+}
+
+div.rocketCard h2 {
+    width: 10%;
+}
+
+div.rocketCard div {
+    width: 40%;
+}
+
+div.rocketCard div.cardBod {
+    display:flex; 
+    flex-wrap:wrap;
+    justify-content: center;
+}

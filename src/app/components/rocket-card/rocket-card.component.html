@@ -1,0 +1,8 @@
+<div class = "rocketCard">
+    <h2>{{rocket.rocket_name}}</h2>
+    <img src="{{rocket.flickr_images[0]}}" alt = "{{rocket.rocket_name}}">
+    <div class = "cardBod">
+        <p>{{rocket.description}}</p>
+        <button class = "btn btn-primary" [routerLink] = "['/rockets', rocket.rocket_id]">Details</button>
+    </div>
+</div>

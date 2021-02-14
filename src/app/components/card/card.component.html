@@ -1,0 +1,10 @@
+<div class="card" style="width: 18rem;">
+    
+    <img class="card-img-top" src={{picture}} alt="Card image cap">
+    <div class="card-body">
+        <p class = "flightNo" *ngIf = history.flight_number> Flight {{history.flight_number}}</p>
+        <h5 class="card-title">{{history.title}}</h5>
+        <p class="card-text">{{history.details}}</p>
+    </div>
+    <button mat-raised-button class="readmore"><a href={{history.links.article}}>Read More</a></button>
+</div>

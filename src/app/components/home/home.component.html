@@ -1,0 +1,6 @@
+<h1 class = "d-flex justify-content-center mt-5"> SpaceX </h1>
+<div class = "mainHome"> 
+    <div *ngFor = "let history of historys; let i = index">
+        <app-card [history] = "history" [flight_number] = "history.flight_number"></app-card>
+    </div>
+</div>

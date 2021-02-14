@@ -1,0 +1,6 @@
+<h1 class = "d-flex justify-content-center mt-5"> Rockets </h1>
+<div class = "rocketHome"> 
+    <div *ngFor = "let rocket of rockets; let i = index">
+        <app-rocket-card [rocket] = "rocket"></app-rocket-card>
+    </div>
+</div>
